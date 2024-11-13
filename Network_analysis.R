@@ -3,7 +3,7 @@ library(igraph)
 #input data
 genus <- read.csv("inputdata.csv",header = T,row.names = 1)
 
-#filtered data
+#filtered data（it depends on the inputdata）
 b=dim(genus)
 genus <- genus[which(rowSums(genus) >= 0.005), ]    
 genus1 <- genus
