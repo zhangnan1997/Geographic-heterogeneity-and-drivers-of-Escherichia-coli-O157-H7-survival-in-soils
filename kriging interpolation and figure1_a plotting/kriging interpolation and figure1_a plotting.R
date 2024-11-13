@@ -1,4 +1,3 @@
-require(automap)
 require(ggplot2)
 require(RColorBrewer)
 library(sf)
