@@ -40,7 +40,7 @@ ggplot() +
   geom_sf(data = nine_line)  + 
   coord_sf(crs = "+proj=laea +lat_0=40 +lon_0=104")+
   annotation_scale(location = "bl") +
-  # 自动添加正确方向的指北针
+  # Automatically add the correct direction of the needle
   annotation_north_arrow(location = "tl", which_north = "false",
                          style = north_arrow_fancy_orienteering)+
   theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank())+
