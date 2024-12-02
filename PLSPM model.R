@@ -9,8 +9,8 @@ dat_blocks <- list(
   clamite_facotrs= c("MAT","MAP"), 
   AP = c('AP'),
   microbial_community = c('PCoA1',"PCoA2"),
-  key_spe =c('Aerococcus.viridans',"Enterococcus.cecorum","Carnobacterium.viridans","Enterococcus.faecium","Enterococcus.durans","Egibacter.rhizosphaerae"),
-  diversity =c("Richness","Shannon","evenness"),
+  key_spe =c('Aerococcus.viridans',"Enterococcus.cecorum","Carnobacterium.viridans","Enterococcus.faecium","Enterococcus.durans"),
+  diversity =c("Richness","Shannon"),
   Pgenes=c("Pgene"))
 dat_blocks
 
